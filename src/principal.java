@@ -26,12 +26,12 @@ public class principal {
                 \n***************************************************
                 *** Sea bienvenido al Conversor de Monedas ***
                 
-                1) Peso Mexicano ==>> Dólar Estadounidense
-                2) Peso Mexicano ==>> Euro
-                3) Peso Mexicano ==>> Libra Esterlina
-                4) Dólar Estadounidense ==>> Peso Mexicano
-                5) Euro ==>> Peso Mexicano
-                6) Libra Esterlina ==>> Peso Mexicano
+                1) Sol Peruano ==>> Dólar Estadounidense
+                2) Sol Peruano ==>> Euro
+                3) Sol Peruano ==>> Libra Esterlina
+                4) Dólar Estadounidense ==>>Sol Peruano
+                5) Euro ==>> Sol Peruano
+                6) Libra Esterlina ==>> Sol Peruano
                 
                 7) Otra opción de conversión
                 
@@ -51,27 +51,27 @@ public class principal {
 
                 switch (opcionElegida) {
                     case 1:
-                        calculos.almacenarValores("MXN", "USD");
+                        calculos.almacenarValores("PEN", "USD");
                         respuestas.add(formattedDate + " - " + calculos.obtenerMensajeRespuesta());
                         break;
                     case 2:
-                        calculos.almacenarValores("MXN", "EUR");
+                        calculos.almacenarValores("PEN", "EUR");
                         respuestas.add(formattedDate + " - " + calculos.obtenerMensajeRespuesta());
                         break;
                     case 3:
-                        calculos.almacenarValores("MXN", "GBP");
+                        calculos.almacenarValores("PEN", "GBP");
                         respuestas.add(formattedDate + " - " + calculos.obtenerMensajeRespuesta());
                         break;
                     case 4:
-                        calculos.almacenarValores("USD", "MXN");
+                        calculos.almacenarValores("USD", "PEN");
                         respuestas.add(formattedDate + " - " + calculos.obtenerMensajeRespuesta());
                         break;
                     case 5:
-                        calculos.almacenarValores("EUR", "MXN");
+                        calculos.almacenarValores("EUR", "PEN");
                         respuestas.add(formattedDate + " - " + calculos.obtenerMensajeRespuesta());
                         break;
                     case 6:
-                        calculos.almacenarValores("GBP", "MXN");
+                        calculos.almacenarValores("GBP", "PEN");
                         respuestas.add(formattedDate + " - " + calculos.obtenerMensajeRespuesta());
                         break;
                     case 7:
